@@ -192,3 +192,6 @@ button {
     flex-direction: column;
   }
 }
+.justify-text{
+text-align: justify;
+}
