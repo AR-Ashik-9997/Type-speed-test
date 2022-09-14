@@ -52,6 +52,9 @@ const typeController = (e) => {
   if (questionText === userText) {
     gameOver();
   }
+  if(newLetterCorrect==false){
+    errorCount++;
+  }
 };
 
 const validate = (key) => {
